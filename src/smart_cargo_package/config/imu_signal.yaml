@@ -1,0 +1,8 @@
+config_name : MW_AHRS_CONFIG
+can:
+  INTERFACE : "can0"
+  ID : 30
+  BITRATE : 1000000
+  DLC : 8
+thread:
+  hz : 100

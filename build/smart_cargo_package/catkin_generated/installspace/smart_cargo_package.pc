@@ -1,0 +1,8 @@
+prefix=/home/fieldro/Dev/smart_cargo/install
+
+Name: smart_cargo_package
+Description: Description of smart_cargo_package
+Version: 0.1.0
+Cflags: -I${prefix}/include -I/usr/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

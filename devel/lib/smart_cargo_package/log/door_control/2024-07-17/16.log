@@ -1,0 +1,259 @@
+16:11:43	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:11:43	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:12:06	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:12:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_ON 
+16:12:06	[INFO ] [DOOR_CONTROL   ] PROC | Door Closed                   
+16:12:06	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSED    
+16:12:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_OFF
+16:12:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:12:27	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:12:27	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Start               
+16:12:41	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:12:41	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+16:12:41	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     
+16:12:46	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:12:46	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:12:46	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:12:47	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:12:47	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:12:52	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:12:52	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Start               
+16:12:52	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_ON 
+16:12:52	[INFO ] [DOOR_CONTROL   ] PROC | Motor Move                    
+16:12:52	[INFO ] [DOOR_CONTROL   ] PROC | Door Openning                 
+16:12:52	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENING   
+16:12:52	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:52	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:12:52	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:52	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:52	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:52	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:53	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:54	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:55	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:55	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:55	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:12:55	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:12:55	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:12:55	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Complete            
+16:12:55	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:12:55	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:16:09	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:16:09	[INFO ] [DOOR_CONTROL   ] PROC | Door Already Opened           
+16:16:56	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:16:56	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+16:16:56	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     
+16:17:02	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:17:02	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:17:02	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:17:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:17:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:17:05	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+16:17:05	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:17:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:17:05	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:17:12	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:17:12	[INFO ] [DOOR_CONTROL   ] PROC | Door Already Opened           
+16:17:17	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> CLOSING   
+16:17:17	[INFO ] [DOOR_CONTROL   ] PROC | Door Close Start              
+16:17:17	[INFO ] [DOOR_CONTROL   ] PROC | Motor Move                    
+16:17:17	[INFO ] [DOOR_CONTROL   ] PROC | Door Closing                  
+16:17:17	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSING   
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_OFF
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:18	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:19	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:17:20	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_ON 
+16:17:20	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:17:20	[INFO ] [DOOR_CONTROL   ] PROC | Door Close Complete           
+16:17:20	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSED    
+16:17:26	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> CLOSING   
+16:17:34	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:17:34	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+16:17:34	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     
+16:19:12	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:19:12	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:19:12	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:19:13	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_ON 
+16:19:13	[INFO ] [DOOR_CONTROL   ] PROC | Door Closed                   
+16:19:13	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSED    
+16:19:13	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_OFF
+16:19:13	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:19:13	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:24:42	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:24:42	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Start               
+16:24:42	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_ON 
+16:24:42	[INFO ] [DOOR_CONTROL   ] PROC | Motor Move                    
+16:24:42	[INFO ] [DOOR_CONTROL   ] PROC | Door Openning                 
+16:24:42	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENING   
+16:24:42	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:24:45	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:24:45	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:24:45	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Complete            
+16:24:45	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:24:45	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:25:08	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:25:08	[INFO ] [DOOR_CONTROL   ] PROC | Door Already Opened           
+16:49:40	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:49:40	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+16:49:40	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     
+16:49:59	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:49:59	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:49:59	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:50:00	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:50:00	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:50:00	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+16:50:00	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:50:00	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:50:00	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:50:22	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> CLOSING   
+16:50:22	[INFO ] [DOOR_CONTROL   ] PROC | Door Close Start              
+16:50:22	[INFO ] [DOOR_CONTROL   ] PROC | Motor Move                    
+16:50:22	[INFO ] [DOOR_CONTROL   ] PROC | Door Closing                  
+16:50:22	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSING   
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_OFF
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:23	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:24	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:25	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_ON 
+16:50:25	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:50:25	[INFO ] [DOOR_CONTROL   ] PROC | Door Close Complete           
+16:50:25	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> CLOSED    
+16:50:43	[INFO ] [DOOR_CONTROL   ] SUB  | CARGO_DOOR                    -> OPENING   
+16:50:43	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Start               
+16:50:43	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_ON 
+16:50:43	[INFO ] [DOOR_CONTROL   ] PROC | Motor Move                    
+16:50:43	[INFO ] [DOOR_CONTROL   ] PROC | Door Openning                 
+16:50:43	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENING   
+16:50:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:43	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:50:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:43	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:44	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:45	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[WARN ] [DOOR_CONTROL   ] PROC | There is No Message           
+16:50:46	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:50:46	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:50:46	[INFO ] [DOOR_CONTROL   ] PROC | Door Open Complete            
+16:50:46	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:50:46	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+16:50:52	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+16:50:52	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+16:50:52	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     
+16:59:29	[INFO ] [DOOR_CONTROL   ] PROC | Node Start                    
+16:59:29	[INFO ] [DOOR_CONTROL   ] PROC | can_connection Success        
+16:59:29	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> PREPARED  
+16:59:31	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+16:59:31	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+16:59:31	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+16:59:31	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+16:59:31	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+16:59:31	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF

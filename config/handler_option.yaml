@@ -1,0 +1,35 @@
+config_name: HANDLER_CONTROL_CONFIG
+thread:
+  hz: 100
+
+dxl:
+  protocol_ver: 2.0
+  id: 1
+  baudrate: 57600
+  device_name: "/dev/ttyDXL"
+  model_num: 311
+  retry_turm: 2
+  retry_count: 3
+  ping_count: 3
+
+dxl_comm:
+  rpm: 50 # Profile Velocity->[max: 0(infinity) min:32767]
+  acc: 16384 # Velocity-based Profile->[max: 0(infinity) min:32767]
+  max_position: 4095 # Extended Position Control Mode->1,048,575(최대 256 회전)
+  min_position: -4095 # Extended Position Control Mode->-1,048,575(최대 256회전)
+
+dxl_op_mode:
+  mode: 4
+  # 0: CURRENT_CONTROL
+  # 1: VELOCITY_CONTROL
+  # 3: POSITION_CONTROL
+  # 4: EXTENDED_POSITION_CONTROL
+  # 5: CURRENT_BASED_POSITION
+  # 16 : PWM_CONTROL_MODE
+
+dxl_drive_mode:
+  mode: 1
+  # 0: Normal, Velocity-based Profile
+  # 1: Reverse, Velocity-based Profile
+  # 4: Normal, Time-based Profile
+  # 5: Reverse, Velocity-based Profile

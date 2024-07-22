@@ -1,0 +1,55 @@
+18:00:03	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:00:03	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:00:03	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:00:03	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:00:03	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:00:05	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:00:05	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:00:05	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:00:05	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:00:05	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:06	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:06	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:06	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:06	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:06	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:08	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:08	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:08	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:08	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:08	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:11	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:11	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:11	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:11	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:11	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:22	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:22	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:22	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:22	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:22	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:32	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:32	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:32	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:32	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:32	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:40	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:40	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:40	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:40	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:40	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:43	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:43	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:43	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:43	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:43	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:02:46	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:02:46	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:02:46	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:02:46	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:02:46	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 
+18:03:29	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+18:03:29	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+18:03:29	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+18:03:29	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+18:03:29	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 

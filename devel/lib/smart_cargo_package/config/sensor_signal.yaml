@@ -1,0 +1,8 @@
+config_name: WAGO_CONFIG
+thread:
+  hz: 100
+modbus:
+  ip: "192.168.2.120"
+  port: 502
+  retry_count: 3
+  retry_turm: 2

@@ -1,0 +1,3 @@
+config_name: TEST_OPTION_CONFIG
+thread:
+  hz: 100

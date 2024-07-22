@@ -1,0 +1,17 @@
+config_name: DOOR_CONTROL_CONFIG
+can:
+  send_id: 320 # 0x140
+  reply_id: 576 # 0x240
+  channel: 0
+  bitrate: -1
+  retry_turm: 2
+  retry_count: 3
+  time_out: 100 # 100ms
+thread:
+  hz: 100
+rmd_comm:
+  gear_ratio: 36
+  step_per_rev: 16384
+  rpm: 15
+  max_limit: 10000
+  min_limit: 100

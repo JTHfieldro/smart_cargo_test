@@ -1,0 +1,75 @@
+18:00:03	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:00:03	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:00:03	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:00:03	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:00:03	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:00:03	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:00:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:00:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:00:05	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:00:05	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:00:05	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:00:05	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:00	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:00	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:02	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:02	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:06	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:06	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:06	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:06	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:08	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:08	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:08	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:08	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:08	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:08	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:11	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:11	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:11	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:11	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:11	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:11	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:13	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:13	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:22	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:22	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:22	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:22	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:22	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:32	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:32	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:32	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:32	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:32	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:32	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:36	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:36	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:40	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:40	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:40	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:40	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:40	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:40	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:43	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:43	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:43	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:43	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:43	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:02:43	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:02:46	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:02:46	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:02:46	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:02:46	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:02:46	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:03:29	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_CLOSE                 -> SIGNAL_OFF
+18:03:29	[INFO ] [DOOR_CONTROL   ] SUB  | DI_DOOR_OPEN                  -> SIGNAL_ON 
+18:03:29	[INFO ] [DOOR_CONTROL   ] PROC | Door Opened                   
+18:03:29	[INFO ] [DOOR_CONTROL   ] PUB  | CARGO_DOOR                    -> OPENED    
+18:03:29	[INFO ] [DOOR_CONTROL   ] SUB  | DI_RATCH_LOCK_FLAG            -> SIGNAL_OFF
+18:03:29	[INFO ] [DOOR_CONTROL   ] SUB  | DO_RATCH_UNLOCK_FLAG          -> SIGNAL_OFF
+18:03:37	[INFO ] [DOOR_CONTROL   ] PROC | Motor Stop                    
+18:03:37	[INFO ] [DOOR_CONTROL   ] PROC | can_disconnection Success     
+18:03:37	[INFO ] [DOOR_CONTROL   ] PROC | Node STOP                     

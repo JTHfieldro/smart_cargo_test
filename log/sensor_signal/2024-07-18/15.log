@@ -1,0 +1,5 @@
+15:13:48	[INFO ] [SENSOR_SIGNAL  ] PROC | Retry Count                   -> 3         
+15:13:48	[INFO ] [SENSOR_SIGNAL  ] PROC | context success               
+15:13:48	[INFO ] [SENSOR_SIGNAL  ] PROC | Node Start!!                  
+15:13:48	[INFO ] [SENSOR_SIGNAL  ] PROC | connect success               
+15:13:48	[INFO ] [SENSOR_SIGNAL  ] PROC | try_connect_modbus_rtu success !!!

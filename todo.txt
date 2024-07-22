@@ -1,0 +1,117 @@
+  - door_control speed control 동작 시 reply 확인
+  - rmd motor zero position 설정 후 동작 범위 설정
+  - sensor_signal 연결 상태 불완전 시 Queue에 msg push되는지 확인
+  - control_handler Sub 관련 로직 작성
+  - door_control 중간 지점 통과 시 가감속 방법 결정(위치, 속도 제어)
+
+c9dac60 - 24.07.17
+  1. door_control node, packet 자료형 std::array(uint8_t, 8)로 변경
+  2. sensor_signal node, modbus 객체 스마트 포인터로 변경(unique_ptr->오류 해결 실패)
+  3. sensor_signal node, 세그멘테이션 오류 발생(is_connected에 lock_guard 적용->실패)
+
+  - door_control node, open/close 상태에서 middle_control 지령 시 예외처리
+  - receive_packet NoMsg 원인 분석
+
+4c72c50 - 24.07.16
+  5. check_speed_reply, receive_packet 내용 수정(packet 포인터로 전달 및 성공 여부 반환)
+  6. door_control enum 변수 enum class로 변환
+  7. LOGGER 호출 방식 변경(component 제거)
+  8. 가감속 설정 함수 정의
+
+ee9ff4c - 24.07.16
+  2. Node 동작 순서에 상관 없이 Parameter Server 등록 상태 확인
+  3. sensor_signal node, 출력 신호 살이있을 경우 예외처리(door_open->ratch lock)
+  4. sensor_signal node, 재연결 시 io 객체 초기화 후 signal info Pub
+
+3ac8b67 - 24.07.16
+  1. drop_package 함수 정의(door_control, handler_control 동작 정의)
+
+f756589 - 24.07.15
+  2. topic_test node, ros_topic_manager/ros_param_manager 적용
+  3. sensor_signal node, ros_topic_manager/ros_param_manager 적용
+  4. handler_control node, ros_topic_manager/ros_param_manager 적용
+  5. door_control node, ros_topic_manager/ros_param_manager 적용
+  6. global_define enum class로 변경
+  7. roslaunch 파일 구성 및 실행 확인(실행만 해봄)
+  8. smart_cargo node, secnario class 생성(state관리)
+  9. smart_cargo node, hw 초기화 함수 정의
+
+5b5057c - 24.07.15
+  1. ROS Topic, Param Manager 동작 test 
+
+db13b69 - 24.07.14
+  1. set_up_communication 내용 정의
+
+8f70735 - 24.07.13
+  1. ros_topic_manager, ros_param_manager class 정의
+
+e8ea242 - 24.07.12
+  1. handler_control Node 생성
+  2. smart_cargo/control_handler Int32MultiArray msg Pub/Sub 동작 확인
+
+3abf245 - 24.07.07
+  1. rmd_control class speed control reply 함수 정의(shaft angle feedback)
+  2. door_control.yaml에 _send_id, _reply_id 분리
+  3. can class receive_packet 함수 내 사용 id == _reply_id로 변경
+  4. rmd_control class update 함수 정의 및 thread 객체 생성
+  5. sensor_signal: signal publish전 tcp 연결, subscriber 구독 상태에 따라 queue에 push
+
+7dde8da - 24.07.06
+  1. sensor_signal parameter server 적용
+  2. if_docking enum class 추가
+
+86b1c1f - 24.07.05
+  3. Topic Subscriber 구동 상태 확인용 Parameter Server 정의
+     Parameter Server를 이용하여 구독 상태를 확인하여도 구독 타이밍 문제 발생
+     지연 시간 0.5초 적용 후 정상 동작 하는 것 확인(근본적인 해결책 필요)
+
+a5f5d43 - 24.07.05
+  1. SafeQueue 정의
+  2. TopicTest msg queue에 push 후 publish 동작 확인(실행 후 pub 성공)
+
+44f7574 - 24.07.04
+  1. Latched Topic 동작 확인
+  2. sensor_signal: CARGO_DOOR OPENED flag 추가(Ratch Lock 동작 관련)
+  3. smart_cargo action_complete 완료 msg sub관련 수정(topic 이름 오타)
+  4. Hardware 동작 상태 관련 bitset 추가
+  5. HW Ready Pub 함수 추가
+  6. door_control door 관련 sensor 이외의 msg 무시
+
+
+2bfcb32 - 24.07.04
+  1. Publisher Latched Topic 설정(advertise 함수 세 번째 인자 true, 마지막 발행 메세지 subscriber에게 전달)
+  2. subscribe_sensor_signal refactoring(함수 분리)
+  3. error_to_string 함수 정의
+
+7550bea - 24.07.03
+  1. Class 명세서 작성
+  2. Topic Message 명세서 작성
+  3. Topic Flow 명세서 작성
+  4. Squence Diagram 작성
+  5. sensor_signal 초기화 시 signal value 확인 함수 정의
+  6. door_control sub_sensor_signal 일부 sensor값 안 들어옴
+  7. topic_test sensor signal 확인용 Sub 함수 생성
+
+  - sensor_signal 처음 동작 시 pub 되는 sensor 값 sub 안 됨
+
+08148fb - 24.07.03
+  1. topic test용 node 제작하기
+
+  - mobasterm을 이용한 rqt-graph 확인하기
+
+8492331 - 24.07.02
+  1. Log 출력 방식 변경 [level] [component] action | message
+
+4a2d4e0 - 24.07.02
+  3. 변경된 Directory에 따른 catkin_make 빌드 확인
+  4. IDE 디버깅 기능 활성화(launch.json 내용 수정)
+  5. state_monitor message 정의
+  6. control_door, action_complete, middle_control, sensor_signal message type에 맞게 정의 수정
+  7. smart_cargo sub에 따른 action 동작 확인(control_door)
+
+b25295 - 24.07.02
+  1. Package Directory Refactoring
+  2. Directory 변경에 따른 CMakLists.txt 수정
+
+28f20fc - 24.07.01
+  1. Package 구성에 따른 CMakeLists 내용 수정

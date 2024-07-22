@@ -1,0 +1,15 @@
+16:12:17	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:12:37	[INFO ] [TOPIC_TEST     ] PROC | Node Stop                     
+16:12:43	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:16:52	[INFO ] [TOPIC_TEST     ] PROC | Node Stop                     
+16:17:00	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:17:30	[INFO ] [TOPIC_TEST     ] PROC | Node Stop                     
+16:19:10	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:49:56	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:50:48	[INFO ] [TOPIC_TEST     ] PROC | Node Stop                     
+16:59:27	[INFO ] [TOPIC_TEST     ] PROC | Node Start                    
+16:59:31	[INFO ] [TOPIC_TEST     ] SUB  | State Monitor                 
+16:59:31	[INFO ] [TOPIC_TEST     ] SUB  | system_state                  
+16:59:31	[INFO ] [TOPIC_TEST     ] SUB  | door_state                    -> door_open 
+16:59:31	[INFO ] [TOPIC_TEST     ] SUB  | handler_state                 
+16:59:31	[INFO ] [TOPIC_TEST     ] SUB  | docking_state                 

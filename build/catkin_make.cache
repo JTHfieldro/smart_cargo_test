@@ -1,0 +1,2 @@
+smart_cargo_package
+-DCATKIN_DEVEL_PREFIX=/home/fieldro/Dev/smart_cargo/devel -DCMAKE_INSTALL_PREFIX=/home/fieldro/Dev/smart_cargo/install -G Unix Makefiles

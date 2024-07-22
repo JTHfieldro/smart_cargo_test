@@ -1,0 +1,6 @@
+78a7a26 - 24.06.29
+  1. pub/sub 객체 생성 및 함수 정의(구체적인 동작 생성 전)
+  2. Package 구성에 따른 각 CMakeLists.txt 수정
+
+710aa01 - 24.06.27
+  1. Workspace 기본 구성

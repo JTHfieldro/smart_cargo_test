@@ -1,0 +1,51 @@
+  - Homing Test
+  - 불필요한 LOG 주석 처리
+
+e93abad - 24.07.11
+  8. ping count 구현(3회 시도 후 응답 없을 경우 연결 시도 안 함)
+  9. Tx Fail, Error LOGGER Format 함수 정의
+  10. LOGGER Directory 생성 방식 변경 /log/custom_name/날짜/시간.log
+
+43087d9 - 24.07.11
+  5. 연결 상태 확인 방식 ping을 이용한 Heartbeat 구성(thread delay 1초 간격)
+  6. ping 동작 Test
+  7. move_position 파생 함수에 Profile Velocity 설정 함수 추가(Torque Off 시 초기화 됨)
+
+3edca72 - 24.07.11
+  1. port, packet handler 생성 위치 변경(Dynamixel->DxlControl)
+  2. get_current_pos 반환값 int32_t로 casting
+  3. mutex를 이용한 connect<->tx 간 접근 제한 해결 실패
+  4. Dxl485 connect thread 단독 동작 후 control에서 flag 호출
+
+14c87f3 - 24.07.10
+  4. move 함수 다양화(임의 위치, 홈 위치, 목표 속도 이동 함수 정의)
+  5. move 함수 동작 전 OP Mode, Torque flag 확인 후 동작 가능하게 설정
+  6. Position Control 동작 완료 확인 함수 정의
+
+5360e67 -24.07.10
+  2. yaml file에서 읽어오는 int값 debuging(uint8_t로 읽어올 경우 오류)
+  3. Profile Velocity 위치 제어 동작 Test 완료
+
+33eb6ab - 24.07.10
+  1. port_handler, packet_handler 수명 관리를 위한 shared_ptr, unique_ptr 적용
+
+f193349 - 24.07.09
+  6. Dxl485 class 연결, 재시도 정의
+  7. vel, pos move 동작 함수 정의
+  8. control, 485 code refactoring
+
+b6e49c0 - 24.07.09
+  4. dxl_control, dxl_connect class 정의
+  5. 일부 동작 함수 간략화, 통합
+
+e94f4ec - 24.07.09
+  1. 위치 제어를 위한 동작 모드 변경(POSITION_CONTROL)
+  2. drive mode, moving status 확인 함수 정의
+  3. 위치 제어 모드 동작 확인(속도 지정)
+
+b4a0bbd - 24.07.08
+  1. handler_control workspace 구성
+  2. Dxl Motor Protocol 변경(-> 2.0)
+  3. Profile Velocity, Goal Position Mode 동작 Test(이동 없음)
+  4. control 함수 간략화
+  5. source code 내용 분리

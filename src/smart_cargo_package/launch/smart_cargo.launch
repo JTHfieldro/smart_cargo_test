@@ -1,0 +1,33 @@
+<launch>
+  <!-- smart_cargo 노드 실행 -->
+  <node name="smart_cargo" pkg="smart_cargo_package" type="smart_cargo" output="screen">
+    <!-- YAML 파일 로드 -->
+    <rosparam command="load" file="$(find smart_cargo_package)/config/cargo_option.yaml" />
+
+    <!-- 필요한 파라미터가 있다면 여기에 추가 -->
+  </node>
+
+  <!-- door_control 노드 실행 -->
+  <node name="door_control" pkg="smart_cargo_package" type="door_control" output="screen">
+    <!-- YAML 파일 로드 -->
+    <rosparam command="load" file="$(find smart_cargo_package)/config/door_control.yaml" />
+
+    <!-- 필요한 파라미터가 있다면 여기에 추가 -->
+  </node>
+
+  <!-- handler_control 노드 실행 -->
+  <node name="handler_control" pkg="smart_cargo_package" type="handler_control" output="screen">
+    <!-- YAML 파일 로드 -->
+    <rosparam command="load" file="$(find smart_cargo_package)/config/handler_option.yaml" />
+
+    <!-- 필요한 파라미터가 있다면 여기에 추가 -->
+
+  <!-- sensor_signal 노드 실행 가장 마지막에 실행!!-->
+  <node name="sensor_signal" pkg="smart_cargo_package" type="sensor_signal" output="screen">
+    <!-- YAML 파일 로드 -->
+    <rosparam command="load" file="$(find smart_cargo_package)/config/sensor_signal.yaml" />
+
+    <!-- 필요한 파라미터가 있다면 여기에 추가 -->
+  </node>
+  </node>
+</launch>

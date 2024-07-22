@@ -1,0 +1,72 @@
+16:12:07	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:12:27	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:12:27	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:12:39	[INFO ] [SMART_CARGO    ] PROC | Node Stop                     
+16:12:44	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:12:46	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> PREPARED  
+16:12:47	[INFO ] [SMART_CARGO    ] SUB  | WAGO                          -> PREPARED  
+16:12:52	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:12:52	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:12:52	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENING   
+16:12:52	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_opening
+16:12:55	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:12:55	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:16:09	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:16:09	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:16:54	[INFO ] [SMART_CARGO    ] PROC | Node Stop                     
+16:16:59	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:17:02	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> PREPARED  
+16:17:05	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:17:05	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:17:05	[INFO ] [SMART_CARGO    ] SUB  | WAGO                          -> PREPARED  
+16:17:12	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:17:12	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:17:17	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_CLOSE            
+16:17:17	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> CLOSING   
+16:17:17	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> CLOSING   
+16:17:17	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_closing
+16:17:20	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> CLOSED    
+16:17:20	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_close
+16:17:26	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_CLOSE            
+16:17:26	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> CLOSING   
+16:17:32	[INFO ] [SMART_CARGO    ] PROC | Node Stop                     
+16:19:11	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:19:12	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> PREPARED  
+16:19:13	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> CLOSED    
+16:19:13	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_close
+16:19:13	[INFO ] [SMART_CARGO    ] SUB  | WAGO                          -> PREPARED  
+16:24:42	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:24:42	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:24:42	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENING   
+16:24:42	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_opening
+16:24:45	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:24:45	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:25:08	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:25:08	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:49:38	[INFO ] [SMART_CARGO    ] PROC | Node Stop                     
+16:49:58	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:49:59	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> PREPARED  
+16:50:00	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:50:00	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:50:00	[INFO ] [SMART_CARGO    ] SUB  | WAGO                          -> PREPARED  
+16:50:14	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:50:22	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_CLOSE            
+16:50:22	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> CLOSING   
+16:50:22	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> CLOSING   
+16:50:22	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_closing
+16:50:25	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> CLOSED    
+16:50:25	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_close
+16:50:31	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_CLOSE            
+16:50:43	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             
+16:50:43	[INFO ] [SMART_CARGO    ] PUB  | CARGO_DOOR                    -> OPENING   
+16:50:43	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENING   
+16:50:43	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_opening
+16:50:46	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:50:46	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:50:50	[INFO ] [SMART_CARGO    ] PROC | Node Stop                     
+16:59:28	[INFO ] [SMART_CARGO    ] PROC | Node Start!!                  
+16:59:29	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> PREPARED  
+16:59:31	[INFO ] [SMART_CARGO    ] SUB  | CARGO_DOOR                    -> OPENED    
+16:59:31	[INFO ] [SMART_CARGO    ] PUB  | door_state                    -> door_open 
+16:59:31	[INFO ] [SMART_CARGO    ] SUB  | WAGO                          -> PREPARED  
+16:59:50	[INFO ] [SMART_CARGO    ] SUB  | CONTROL_DOOR_OPEN             

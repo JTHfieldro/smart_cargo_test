@@ -1,0 +1,2 @@
+set(smart_cargo_package_MESSAGE_FILES "/home/fieldro/Dev/smart_cargo/src/smart_cargo_package/msg/middle_control_msgs.msg;/home/fieldro/Dev/smart_cargo/src/smart_cargo_package/msg/sensor_signal_msgs.msg;/home/fieldro/Dev/smart_cargo/src/smart_cargo_package/msg/action_complete_msgs.msg;/home/fieldro/Dev/smart_cargo/src/smart_cargo_package/msg/state_monitor.msg")
+set(smart_cargo_package_SERVICE_FILES "")
